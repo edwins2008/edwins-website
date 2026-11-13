@@ -1,0 +1,35 @@
+# Git and local environment/config
+.git/
+.gitignore
+.github/
+.env
+.env.*
+!.env.example
+
+# Compiled binaries and build output
+/edwinslab-api
+/build/
+/dist/
+*.exe
+*.test
+
+# Local runtime data
+/data/
+/uploads/
+/log/
+/tmp/
+*.log
+
+# Documentation and editor files not needed in the image
+README.md
+STATUS.md
+PROGRESS.md
+.idea/
+.vscode/
+.freebuff/
+*.swp
+*.swo
+*~
+
+# OS noise
+.DS_Store

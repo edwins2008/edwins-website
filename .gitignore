@@ -1,0 +1,43 @@
+# Environment variables and secrets
+.env
+.env.*
+!.env.example
+**/.env
+**/.env.*
+!**/.env.example
+config/master.key
+**/config/master.key
+
+# Node
+node_modules/
+dist/
+.vite/
+
+# Rails
+backend/log/*
+backend/tmp/*
+backend/storage/*
+backend/.bundle/
+backend/coverage/
+backend/public/assets/
+
+# Ruby
+.bundle/
+vendor/bundle/
+
+# OS and editors
+.DS_Store
+.idea/
+.vscode/
+*.swp
+backend/.kamal/secrets
+backend/.kamal/secrets
+
+# PlatformIO build artifacts
+firmware/esp32/.pio/
+**/.pio/
+
+# Local firmware credentials (never commit)
+firmware/esp32/src/config.local.h
+**/config.local.h
+frontend/test-results/
